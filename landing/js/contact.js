@@ -17,8 +17,6 @@ function handlerContact() {
             id: null,
             number: '',
             area: '',
-            money_advance: null,
-            total_price: null,
             available: null
         },
         getLotById(id) {
@@ -32,17 +30,12 @@ function handlerContact() {
                     id, 
                     number, 
                     area, 
-                    money_advance, 
-                    total_price, 
-                    
                     available
                 } = data.lot
 
                 this.lot.id = id
                 this.lot.number = number
                 this.lot.area = area
-                this.lot.money_advance = this.formartPrice(money_advance)
-                this.lot.total_price = this.formartPrice(total_price)
                 this.lot.front_and_width = ' 7m de frente x 16.5 de fondo'
                 this.lot.available = available
 

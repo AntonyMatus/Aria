@@ -33,7 +33,7 @@
                                     <tr>
                                         <th>Id</th>
                                         <th>No. Lote</th>
-                                        <th>Precio total del terreno</th>
+                                        <th>Metros cuadrados (M<sup>2</sup>)</th>
                                         <th>Disponibilidad</th>
                                         <th>Editar</th>
                                     </tr>
@@ -48,7 +48,7 @@
                                                 <?php echo $item->number; ?>
                                             </td>
                                             <td>
-                                                <?php echo number_format($item->total_price, 2); ?>
+                                                <?php echo $item->area; ?>
                                             </td>
                                             <td>
                                                 <?php 
@@ -118,26 +118,6 @@
                                     type="text" 
                                     name="area"
                                     id="area"
-                                    class="form-control"
-                                    required
-                                />
-                            </div>
-                            <div class="form-group">
-                                <label>Enganche</label>
-                                <input 
-                                    type="text" 
-                                    name="money_advance"
-                                    id="money_advance"
-                                    class="form-control"
-                                    required
-                                />
-                            </div>
-                            <div class="form-group">
-                                <label>Precio total</label>
-                                <input 
-                                    type="text" 
-                                    name="total_price"
-                                    id="total_price"
                                     class="form-control"
                                     required
                                 />

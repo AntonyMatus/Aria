@@ -36,14 +36,14 @@ function selectColor(available) {
 }
 
 // show popover by lot
-// $(".cls-1").mouseover(function() {
-//      const lotId = $(this).attr('id')
-//     const lotNum = $(this).attr('data-number')
-//     const lotArea = $(this).attr('data-area')
+ $(".cls-1").mouseover(function() {
+      const lotId = $(this).attr('id')
+     const lotNum = $(this).attr('data-number')
+     const lotArea = $(this).attr('data-area')
     
-//      tippy(`#${lotId}`, {
-//          allowHTML: true,
-//          content: `<p>No. Lote: ${lotNum} <br> Área: ${lotArea}m<sup>2</sup></p>`,
-//          theme: 'light'
-//      })
-//  })
+     tippy(`#${lotId}`, {
+         allowHTML: true,
+          content: `<p>No. Lote: ${lotNum} <br> Área: ${lotArea}m<sup>2</sup></p>`,
+          theme: 'light'
+      })
+  })
