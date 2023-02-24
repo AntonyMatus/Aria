@@ -60,8 +60,31 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
             </div>
         </nav>
     </header>
+    <section id="Distribución" class="big-section bg-light-gray wow animate__fadeIn">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="row justify-content-lg-center">
+
+                    <div class="col-12 col-lg-6 col-sm-8 text-lg-center lg-margin-4-rem-bottom md-margin-3-rem-bottom xs-margin-5-rem-bottom wow animate__fadeIn">
+
+                        <h5 class="alt-font font-weight-700 text-center text-uppercase text-dark letter-spacing-minus-1px  margin-2-half-rem-bottom"> <br>Tu próximo nuevo hogar</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row  border-width-1px border-color-medium-gray">
+                <div class="col-12 p-0 tab-style-07">
+                    <!-- start tab navigation -->
+                    <img loading="lazy" src="landing/images/img-intro.jpeg" alt="img-intro">
+                    <!-- end tab navigation -->
+                </div>
+            </div>
+            
+
+    </section>
+
+
+
     <!-- start section -->
-    
     <section id="cotizador" class="big-section2 border-color-medium-gray wow animate__fadeIn margin-four-top">
         <div id="container_imagen" class="container">
             <div class="row justify-content-center">
