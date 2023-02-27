@@ -89,7 +89,7 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
         <div id="container_imagen" class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 text-center margin-2-rem-bottom lg-margin-5-rem-bottom md-margin-4-rem-bottom wow animate__fadeIn">
-                    <h5 class="alt-font font-weight-700 text-center text-uppercase text-dark letter-spacing-minus-1px m-0 mb-3">Cotiza la disponibilidad de tu Smart Home</h5>
+                    <h5 class="alt-font font-weight-700 text-center text-uppercase text-dark letter-spacing-minus-1px m-0 mb-3">Cotiza la disponibilidad de tu lote</h5>
                 </div>
                 <div class="col-12 margin-four-bottom">
                     <div class="text-center">
@@ -958,7 +958,7 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
 
     <footer class="padding-six-tb xs-padding-thirteen-tb bg-client pb-4">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-start">
                 <div class="col-12 col-lg-4 col-md-6 order-1 order-lg-1 text-center text-md-end">
                     <div id="img" class="social-icon-style-12 margin-20px-bottom justify-content-center">
                         <img class="margin-15px-bottom" src="landing/images/logos/Recurso-2.svg" alt="" style="width: 80%;">

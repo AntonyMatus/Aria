@@ -73,7 +73,7 @@ video { background-size: cover; display: table-cell; vertical-align: middle; wid
 p { margin: 0 0 25px; }
 b, strong { font-weight: 600; }
 .alt-font strong { font-weight: 600; }
-.last-paragraph-no-margin p:last-of-type { margin-bottom:0; }
+.last-paragraph-no-margin p:last-of-type { margin-bottom:0; margin-top: -5px; }
 ul, ol, dl { list-style-position: outside; margin-bottom: 25px; }
 ul { margin: 0; padding: 0; }
 input, textarea, select { border: 1px solid #dfdfdf; padding: 10px 15px; width: 100%; margin: 0 0 15px 0; max-width: 100%; resize: none; outline: none; color: #828282; line-height: initial; word-break: initial; }
@@ -2933,7 +2933,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 /* header logo */
 header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 45px; }
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;  height: 30px;}
-header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
+header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; height: 30px; }
 
 header .navbar.always-fixed .navbar-brand .default-logo, header.sticky .always-fixed .navbar-brand .alt-logo, 
 header.sticky .navbar.always-fixed .navbar-brand .default-logo, header .always-fixed .navbar-brand .alt-logo, 

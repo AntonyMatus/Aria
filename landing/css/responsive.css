@@ -4821,6 +4821,19 @@
         margin-right: 0px;
         display: inline-block;
     }
+    .cotizador-svg3{
+        width: 260px;
+        margin-left: -65px;
+        margin-top: 32px;
+        vertical-align: unset;
+        opacity: 0.6;
+        margin-bottom: 31px;
+        margin-right: 0px;
+        display: inline-block;
+    }
+    .text-client{
+        text-align: left;
+    }
     }
 
 @media (max-width: 767px) {
