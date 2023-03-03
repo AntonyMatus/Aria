@@ -2399,9 +2399,9 @@ input.btn:focus { border-width: 2px; }
 }
 
 .cotizador-svg3{
-    width: 600px;
-    margin-left: -212px;
-    margin-top: 58px;
+    width: 710px;
+    margin-left: -242px;
+    margin-top: 55px;
     vertical-align: unset;
     opacity: 0.6;
     margin-bottom: 70px;
@@ -5085,7 +5085,7 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
     background-size: cover; 
     background-position: center;
     padding: 0 !important; 
-    width: 850px; 
+    width: 1000px; 
     position: inherit;
 }
 a.text-client:hover{

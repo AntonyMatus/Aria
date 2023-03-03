@@ -11,16 +11,13 @@
 
 <!doctype html>
 <html class="no-js" lang="en" style="scroll-behavior: smooth;">
-
 <head>
     <title>Aria</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Búho Solutions">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="description" content="Privada de 99 Lotes Residenciales, rodeada de naturaleza, amenidades y acceso controlado.
-Ubicada al norte de la ciudad de Mérida en Cholul con cercanía a las mejores Universidades, Escuelas,Hospitales y Plazas comerciales. Crea una vida tranquila y familiar con contacto natural sin salir de la ciudad.
-Lotes residenciales desde 240 m2 hasta 325 m2">
+    <meta name="description" content="Privada de 99 Lotes Residenciales, rodeada de naturaleza, amenidades y acceso controlado. Ubicada al norte de la ciudad de Mérida en Cholul con cercanía a las mejores Universidades, Escuelas,Hospitales y Plazas comerciales. Crea una vida tranquila y familiar con contacto natural sin salir de la ciudad. Lotes residenciales desde 240 m2 hasta 325 m2">
     <!-- favicon icon -->
     <link rel="shortcut icon" href="landing/images/logos/logo-white.svg">
     <link rel="apple-touch-icon" href="landing/images/logos/logo-white.svg">
@@ -39,10 +36,7 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
     <!-- Alpine -->
     <script defer src="https://unpkg.com/alpinejs@3.9.1/dist/cdn.min.js"></script>
-
-
 </head>
-
 <body data-mobile-nav-style="classic" x-data="handlerContact()">
     <!-- start header -->
     <header>
@@ -55,8 +49,6 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
                         <img src="landing/images/logos/logo.svg" class="mobile-logo float-left" alt="">
                     </a>
                 </div>
-                
-
             </div>
         </nav>
     </header>
@@ -74,19 +66,15 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
             <div class="row  border-width-1px border-color-medium-gray">
                 <div class="col-12 p-0 tab-style-07">
                     <!-- start tab navigation -->
-                    <img loading="lazy" src="landing/images/img-intro.jpeg" alt="img-intro">
+                    <img loading="lazy" src="landing/images/lotes-residenciales.jpg" alt="Lotes Residenciales Aria">
                     <!-- end tab navigation -->
                 </div>
             </div>
-            
-
     </section>
-
-
 
     <!-- start section -->
     <section id="cotizador" class="big-section2 border-color-medium-gray wow animate__fadeIn margin-four-top">
-        <div id="container_imagen" class="container">
+        <div id="container_imagen" class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 text-center margin-2-rem-bottom lg-margin-5-rem-bottom md-margin-4-rem-bottom wow animate__fadeIn">
                     <h5 class="alt-font font-weight-700 text-center text-uppercase text-dark letter-spacing-minus-1px m-0 mb-3">Cotiza la disponibilidad de tu lote</h5>
@@ -99,8 +87,8 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12  col-md-8 mx-auto text-center img-svg" >
-            <!-- SVG -->
+            <div class="col-sm-12 col-md-12 mx-auto text-center img-svg" >
+                <!-- SVG -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560.86 228.67" class="cotizador-svg3"><defs><style>.cls-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:0.25px;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1">
                     <path 
                     @click="getLotById(<?php echo $lots[98]->id; ?>)"
@@ -955,7 +943,6 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
     </div>
     <!-- End modal -->
 
-
     <footer class="padding-six-tb xs-padding-thirteen-tb bg-client pb-4">
         <div class="container">
             <div class="row align-items-start">
@@ -988,13 +975,6 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
     </footer>
     <!-- end footer -->
 
-
-    <!-- start scroll to top -->
-
-    <!-- <a class="btn-whatsapp-style-1 text-white" href="#" target="_blank">
-        <i class="fab fa-whatsapp whatsapp-icon"></i>
-    </a> -->
-    <!-- end scroll to top -->
     <!-- javascript -->
     <script type="text/javascript" src="landing/js/jquery.min.js"></script>
     <script type="text/javascript" src="landing/js/theme-vendors.min.js"></script>
@@ -1009,11 +989,10 @@ Lotes residenciales desde 240 m2 hasta 325 m2">
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
 
-      <!-- Toast -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <!-- Toast -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
     <!-- App -->
     <script type="text/javascript" src="landing/js/app.js"></script>
 </body>
-
 </html>
