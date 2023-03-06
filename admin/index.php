@@ -123,6 +123,66 @@
                                 />
                             </div>
                             <div class="form-group">
+                                <label>Enganche 18 meses 15%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_18_15"
+                                    id="price_18_15"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label>Enganche 18 meses 25%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_18_25"
+                                    id="price_18_25"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label>Enganche 18 meses 30%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_18_30"
+                                    id="price_18_30"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label>Enganche 24 meses 15%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_24_15"
+                                    id="price_24_15"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label>Enganche 24 meses 25%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_24_25"
+                                    id="price_24_25"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label>Enganche 24 meses 30%</label>
+                                <input 
+                                    type="text" 
+                                    name="price_24_30"
+                                    id="price_24_30"
+                                    class="form-control"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
                                 <label>Disponibilidad</label>
                                 <select name="available" id="available" class="form-control" required>
                                     <option value="1">Disponible</option>

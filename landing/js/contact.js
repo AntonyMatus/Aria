@@ -30,12 +30,25 @@ function handlerContact() {
                     id, 
                     number, 
                     area, 
+                    price_18_15,
+                    price_18_25,
+                    price_18_30,
+                    price_24_15,
+                    price_24_25,
+                    price_24_30,
                     available
                 } = data.lot
 
                 this.lot.id = id
                 this.lot.number = number
                 this.lot.area = area
+                this.lot.price_18_15 = this.formartPrice(price_18_15)
+                this.lot.price_18_25 = this.formartPrice(price_18_25)
+                this.lot.price_18_30 = this.formartPrice(price_18_30)
+                this.lot.price_24_15 = this.formartPrice(price_24_15)
+                this.lot.price_24_25 = this.formartPrice(price_24_25)
+                this.lot.price_24_30 = this.formartPrice(price_24_30)
+
                 this.lot.front_and_width = ' 7m de frente x 16.5 de fondo'
                 this.lot.available = available
 

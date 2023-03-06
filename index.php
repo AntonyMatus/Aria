@@ -906,22 +906,47 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row mb-3 justify-content-center">
+                    <div class="row mb-3 justify-content-center text-center">
                         <div class="col-6 custom-border-right">
-                            <p class="custom-font-size">
-                                Área Total en (m<sup>2</sup>): <span x-text="lot.area"></span> <br>
+                            <p class="custom-font-size text-center">
+                                Área Total en (m<sup>2</sup>):  <span x-text="lot.area"></span>
                             </p>
                         </div>
                         <div class="col-6">
-                            <p class="custom-font-size">
-                                Numero de Lote: <span x-text="lot.number"></span> <br>
+                            <p class="custom-font-size text-center">
+                                Numero de Lote:  <span x-text="lot.number"></span>
                             </p>
                         </div>
-                        <!-- <div class="col-4 custom-border-right">
+                        <div class="col-4 custom-border-right">
                             <p class="custom-font-size">
-                                Precio Total: <span x-text="lot.total_price"></span>
+                                Enganche 18 meses 15%: <span x-text="lot.price_18_15"></span>
                             </p>
-                        </div> -->
+                        </div>
+                        <div class="col-4 custom-border-right">
+                            <p class="custom-font-size">
+                                Enganche 18 meses 25%: <span x-text="lot.price_18_25"></span>
+                            </p>
+                        </div>
+                        <div class="col-4 custom-border-right">
+                            <p class="custom-font-size">
+                                Enganche 18 meses 30%: <span x-text="lot.price_18_30"></span>
+                            </p>
+                        </div>
+                        <div class="col-4 custom-border-right">
+                            <p class="custom-font-size">
+                                Enganche 24 meses 15%: <span x-text="lot.price_24_15"></span>
+                            </p>
+                        </div>
+                        <div class="col-4 custom-border-right">
+                            <p class="custom-font-size">
+                                Enganche 24 meses 25%: <span x-text="lot.price_24_25"></span>
+                            </p>
+                        </div>
+                        <div class="col-4 custom-border-right">
+                            <p class="custom-font-size">
+                                Enganche 24 meses 30%: <span x-text="lot.price_24_30"></span>
+                            </p>
+                        </div>
                     </div>
                     <p x-show="lot.available === 1" class="custom-font-size text-center">
                     Este lote se encuentra <strong>Disponible</strong>, para mayor información acerca de nuestros lotes, favor de comunicarse vía Whatsapp con uno de nuestros asesores. ¡Gracias!

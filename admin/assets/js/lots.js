@@ -15,11 +15,12 @@ const editLot = (id) => {
 			id, 
 			number, 
 			area, 
-			money_advance,
-			deadlines,
-			price_by_square_meter,
-			total_price,
-			month_charge,
+			price_18_15,
+			price_18_25,
+			price_18_30,
+			price_24_15,
+			price_24_25,
+			price_24_30,
 			available 
 		} = data.lot
 
@@ -27,11 +28,13 @@ const editLot = (id) => {
 
 		$('#number').val(number)
 		$('#area').val(area)
-		$('#money_advance').val(money_advance)
-		$('#deadlines').val(deadlines)
-		$('#price_by_square_meter').val(price_by_square_meter)
-		$('#total_price').val(total_price)
-		$('#month_charge').val(month_charge)
+		$('#price_18_15').val(price_18_15)
+		$('#price_18_25').val(price_18_25)
+		$('#price_18_30').val(price_18_30)
+		$('#price_24_15').val(price_24_15)
+		$('#price_24_25').val(price_24_25)
+		$('#price_24_30').val(price_24_30)
+
 		$('#available').val(available)
 
 		$('#modal-lots').modal('show')
