@@ -58,8 +58,6 @@
                 <div class="row justify-content-lg-center">
 
                     <div class="col-12 col-lg-6 col-sm-8 text-lg-center lg-margin-4-rem-bottom md-margin-3-rem-bottom xs-margin-5-rem-bottom wow animate__fadeIn">
-
-                        <h5 class="alt-font font-weight-700 text-center text-uppercase text-dark letter-spacing-minus-1px  margin-2-half-rem-bottom"> <br>Tu próximo nuevo hogar</h5>
                     </div>
                 </div>
             </div>
